@@ -1,12 +1,11 @@
-//your JS code here. If required.
-const output = document.getElementById("output");
-const btn = document.getElementById("download-images-button");
-
-const images = [
-  { url: "https://picsum.photos/id/237/200/300" },
-  { url: "https://picsum.photos/id/238/200/300" },
-  { url: "https://picsum.photos/id/239/200/300" },
+// Array of image URLs
+const imageUrls = [
+    { url: 'https://via.placeholder.com/150' },
+    { url: 'https://via.placeholder.com/200' },
+    { url: 'https://via.placeholder.com/250' },
+    // Add more image URLs as needed
 ];
+
 // Function to download an image
 function downloadImage(image) {
     return new Promise((resolve, reject) => {
