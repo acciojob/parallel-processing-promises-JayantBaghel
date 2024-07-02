@@ -1,8 +1,8 @@
 // Array of image URLs
 const imageUrls = [
-    { url: 'https://via.placeholder.com/150' },
-    { url: 'https://via.placeholder.com/200' },
-    { url: 'https://via.placeholder.com/250' },
+    { url: 'https://picsum.photos/id/237/200/300' },
+    { url: 'https://picsum.photos/id/238/200/300' },
+    { url: 'https://picsum.photos/id/239/200/300' },
     // Add more image URLs as needed
 ];
 
